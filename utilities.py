@@ -3,7 +3,8 @@ import re, string, calendar
 from wikipedia import WikipediaPage
 from bs4 import BeautifulSoup
 
-from typing import List, Match
+from typing import List
+from re import Match
 
 
 def get_page_html(title: str) -> str:
